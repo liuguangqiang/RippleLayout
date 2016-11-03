@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RippleLayout</string>
+    <string name="title_target_activity">发布动态</string>
+
+    <string name="lb_channel">发布频道</string>
+    <string name="lb_location">所在位置</string>
+    <string name="hint_publish">说点什么好呢...</string>
+
+</resources>

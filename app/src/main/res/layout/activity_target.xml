@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_target"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.liuguangqiang.ripplelayout.RippleLayout
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:actionBarSize"
+                android:background="@color/colorPrimary"
+                android:minHeight="?android:actionBarSize"
+                android:title="@string/title_target_activity" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@android:color/white"
+                android:gravity="top"
+                android:hint="@string/hint_publish"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="16dp"
+                android:text="@string/lb_channel" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="16dp"
+                android:text="@string/lb_location" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
