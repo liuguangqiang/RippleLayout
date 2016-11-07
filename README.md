@@ -1,6 +1,10 @@
 RippleLayout
 ======================================
-A layout that implemented ripple effect..
+A layout that implemented ripple effect.
+
+A ripple is not just a circle that starts expanding from your finger till it covers all the view. In fact, the circle starts expanding from your finger while its center travels to the center of the view with a fixed speed. By the time the circle's center has reached the center of the view its radius will be equal to the distance between the view's center and its farthest edge. In this way, the ripple reaches every edge of the view at almost the same time.
+
+[原文链接](https://plus.google.com/+ChrisBasha/posts/iM4G2nsKmsG)
 
 ## Screenshot
 ![](arts/ripple.gif)
