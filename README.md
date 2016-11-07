@@ -13,6 +13,25 @@ A ripple is not just a circle that starts expanding from your finger till it cov
 
 ![](arts/ripple2.gif)
 
+## Usage
+### Gradle
+
+```
+dependencies {
+   	compile 'com.liuguangqiang.ripplelayout:library:0.1.0'
+}
+```
+
+### Maven
+```
+<dependency>
+  <groupId>com.liuguangqiang.ripplelayout</groupId>
+  <artifactId>library</artifactId>
+  <version>0.1.0</version>
+  <type>aar</type>
+</dependency>
+```
+
 ## License
 
     Copyright 2016 Eric Liu
