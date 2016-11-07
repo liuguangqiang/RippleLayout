@@ -32,6 +32,15 @@ dependencies {
 </dependency>
 ```
 
+### Start Activity
+The ripple animation can start from a Point or a View.
+
+But the transition animation of the target activity must be implemented by yourself.
+
+```
+Ripple.startActivity(MainActivity.this, TargetActivity.class, A point or a view);
+```
+
 ## License
 
     Copyright 2016 Eric Liu
